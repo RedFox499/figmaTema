@@ -1,0 +1,280 @@
+body
+{
+   background-color: #181818;
+   height: 5000px; 
+}
+body.light-theme
+{
+    background-color: #f4f4f4;
+}
+.HeadIcon
+{
+    position: absolute;
+    top: 26px;
+    right: 1380px;
+}
+ul
+{
+    display: flex;
+    gap: 8px;
+}
+li
+{
+    float: left;
+    list-style: none;
+}
+.main
+{
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+   
+    font-family: "Roboto Mono", monospace;
+    transition: 0.25s;
+}
+.main:hover
+{
+    color: rgb(190, 74, 190);
+    transition: 0.25s;
+}
+.arrow
+{
+    position: absolute;
+    margin-left: 650px;
+    margin-top: 17px;
+}
+.arrow2
+{
+    position: absolute;
+    margin-left: 777px;
+    margin-top: 17px;
+}
+.Navigation
+{
+    position: absolute;
+    top: -2px;
+    right: 960px;
+}
+.buttonGreen
+{
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    border: none;
+    width: 135px;
+    height:27px;
+    background-color: rgb(92, 194, 134);
+    color: white;
+    text-decoration: none;
+    position: absolute;
+    padding-top: 5px;
+    right: 350px;
+    top: 22px;
+    transition: 0.25s;
+}
+.buttonGreen:hover
+{
+    color: black;
+    background-color: rgb(224, 255, 213);
+    transition: 0.25s;
+}
+.sign
+{
+    
+    text-decoration: none;
+    font-family: "Roboto mono";
+    font-size: 16px;
+    position: absolute;
+    top: 27px; 
+    right: 260px;  
+    transition: 0.25s;
+}
+.sign:hover
+{
+    color: rgb(190, 74, 190);
+    transition: 0.25s;
+}
+.vector1
+{
+    position:absolute;
+    right: 1567px;
+    top: 192px;
+    z-index: 3;
+}
+.bordervec
+{
+    background-color: white;
+    width: 50px;
+    height: 50px;
+    border-radius: 25%;
+    position: absolute;
+    right: 1550px;
+    top: 175px;
+}
+.firstimage
+{
+    position: absolute;
+    top: 190px;
+    right: 263px;
+}
+.Storg
+{
+    
+    font-family: "Roboto mono";
+    position: absolute;
+    right: 1450px;
+    top: 170px;
+}
+.serve
+{
+    color: white;  
+    text-align: left;
+    width: 1080px;
+    font-size: 48px;
+    position: absolute;
+    top: 210px;
+    font-family: "Kanit", sans-serif;
+    right: 520px;
+}
+.serve.black
+{
+    color: black;
+}
+.opensrc
+{
+    
+    text-align: left;
+    font-family: "Kanit", system-ui;
+    font-weight: 200;
+    font-style: normal;
+    position: absolute;
+    top: 420px;
+    right: 1226px;
+}
+.opensrc1
+{
+   
+    text-align: left;
+    font-family: "Kanit", system-ui;
+    font-weight: 200;
+    font-style: normal;
+    position: absolute;
+    right: 1219px;
+    top: 500px;
+}
+.buttonGreen2
+{
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    border: none;
+    width: 125px;
+    height:27px;
+    background-color: rgb(92, 194, 134);
+    color: white;
+    text-decoration: none;
+    position: absolute;
+    padding-top: 5px;
+    right: 1370px;
+    top: 620px;
+    transition: 0.25s;
+}
+.buttonGreen2:hover
+{
+    color: black;
+    background-color: rgb(224, 255, 213);
+    transition: 0.25s;
+}
+.framer3
+{
+    position: absolute;
+    z-index: 3;
+    top: 700px;
+    right: 1245px;
+}
+.inet
+{
+   position: absolute;
+   top:705px;
+   right: 790px;
+}
+.markico
+{
+    position: absolute;
+    top:706px;
+    right: 340px;
+}
+.flexible
+{
+    display: flex;
+    flex-direction: row;
+    gap: 347px;
+    position: absolute;
+    top: 730px;
+    right: 540px;
+}
+.flexible2
+{
+    display: flex;
+    flex-direction: row;
+    gap: 240px;
+    position: absolute;
+    top: 760px;
+    right: 350px;
+}
+.nigga
+{
+    color: rgba(255, 255, 255, 0.616);
+}
+.sleek
+{
+   
+    text-align: left;
+    font-family: "Kanit", system-ui;
+    font-weight: 200;
+    font-style: normal;
+    position: absolute;
+    top: 980px;
+    right: 728px;
+    font-size: 48px;
+}
+.undersleek
+{
+    
+    text-align: left;
+    font-family: "Kanit", system-ui;
+    font-weight: 200;
+    font-style: normal;
+    position: absolute;
+    top: 1070px;
+    right: 986px;   
+}
+.secondmg
+{
+    position: absolute;
+    top: 1250px;
+    right: 1050px;
+
+}
+.secondmg2
+{
+    position: absolute;
+    visibility: hidden;
+}
+.ThemeButton
+{
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    border: none;
+    width: 135px;
+    height:27px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    position: absolute;
+    padding-top: 5px;
+    right: 1700px;
+    top: 22px;
+    transition: 0.25s;
+}
