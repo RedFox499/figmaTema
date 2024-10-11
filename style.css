@@ -2,10 +2,21 @@ body
 {
    background-color: #181818;
    height: 5000px; 
+   color: white;
 }
 body.light-theme
 {
     background-color: #f4f4f4;
+    color: black;
+}
+body.light-theme nav a,
+body.light-theme .sign
+{
+    color: black;
+}
+body nav a
+{
+    color:white;
 }
 .HeadIcon
 {
@@ -28,7 +39,6 @@ li
     display: block;
     padding: 12px;
     text-decoration: none;
-   
     font-family: "Roboto Mono", monospace;
     transition: 0.25s;
 }
@@ -80,14 +90,14 @@ li
 }
 .sign
 {
-    
+    color: white;
     text-decoration: none;
     font-family: "Roboto mono";
     font-size: 16px;
     position: absolute;
     top: 27px; 
     right: 260px;  
-    transition: 0.25s;
+    transition: 0.25s; 
 }
 .sign:hover
 {
@@ -119,7 +129,6 @@ li
 }
 .Storg
 {
-    
     font-family: "Roboto mono";
     position: absolute;
     right: 1450px;
@@ -127,7 +136,6 @@ li
 }
 .serve
 {
-    color: white;  
     text-align: left;
     width: 1080px;
     font-size: 48px;
@@ -136,13 +144,8 @@ li
     font-family: "Kanit", sans-serif;
     right: 520px;
 }
-.serve.black
-{
-    color: black;
-}
 .opensrc
 {
-    
     text-align: left;
     font-family: "Kanit", system-ui;
     font-weight: 200;
@@ -153,7 +156,6 @@ li
 }
 .opensrc1
 {
-   
     text-align: left;
     font-family: "Kanit", system-ui;
     font-weight: 200;
@@ -222,13 +224,8 @@ li
     top: 760px;
     right: 350px;
 }
-.nigga
-{
-    color: rgba(255, 255, 255, 0.616);
-}
 .sleek
 {
-   
     text-align: left;
     font-family: "Kanit", system-ui;
     font-weight: 200;
@@ -240,7 +237,6 @@ li
 }
 .undersleek
 {
-    
     text-align: left;
     font-family: "Kanit", system-ui;
     font-weight: 200;
@@ -254,7 +250,6 @@ li
     position: absolute;
     top: 1250px;
     right: 1050px;
-
 }
 .secondmg2
 {
@@ -263,18 +258,23 @@ li
 }
 .ThemeButton
 {
-    border-radius: 10px;
+    border-radius: 90px;
     display: flex;
     justify-content: center;
     border: none;
-    width: 135px;
-    height:27px;
+    width: 70px;
+    height:65px;
     background-color: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
     text-decoration: none;
     position: absolute;
     padding-top: 5px;
     right: 1700px;
-    top: 22px;
+    top: 80px;
     transition: 0.25s;
+}
+body.light-theme .ThemeButton
+{
+    background-color: black;
+    color: white;
 }

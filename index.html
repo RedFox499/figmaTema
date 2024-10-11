@@ -13,33 +13,34 @@
     <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     
 </head>
-<body > 
+<body> 
     <header>
-        <img src="Rectangle.svg" class="HeadIcon">
+        <img id="logo" src="Rectangle.svg" class="HeadIcon">
             <div>
                 <nav class="Navigation">
                     <ul>
-                        <li><a href="#" class="main" id="navig">Product</a></li>
-                        <li><a href="#" class="main" id="navig">Developers</a></li>
-                        <li><a href="#" class="main" id="navig">Beta</a></li>
-                        <li><a href="#" class="main" id="navig">Pricing</a></li>
+                        <li><a href="https://youtu.be/tvTRZJ-4EyI?si=oRL_Y1fQeLHI8oLQ" class="main">Product</a></li>
+                        <li><a href="https://youtu.be/eQkSArQxYJg?si=6zpKa4MznG0aUhlW" class="main">Developers</a></li>
+                        <li><a href="https://youtu.be/H58vbez_m4E?si=r4zK8TZa8vYZng-M" class="main">Beta</a></li>
+                        <li><a href="https://youtu.be/5qm8PH4xAss?si=oXz_BycbzR6Da3VX" class="main">Pricing</a></li>
                     </ul>
                 </nav>
             </div>
         <div class="arrow">
-        <img src="arrow.svg">
-            </div>
-                <div class="arrow2">
-                    <img src="arrow.svg">
-                        </div>
-                    <div>
-                <a href="#" class="buttonGreen" id="theme">Start your project</a>
-            </div>
-        <div>
-            <a href="#" class="sign" id="signa">Sign in</a>
+            <img src="arrow.svg" id="arrowd2">
         </div>
+        <div class="arrow2">
+            <img src="arrow.svg" id="arrowd">
+        </div>
+            <div>
+                <a href="#" class="buttonGreen">Start your project</a>
+            </div>
         <div>
-            <a href="#" class="ThemeButton" id="tema">Change theme</a>
+            <a href="#" class="sign light">Sign in</a>
+        </div>
+
+        <div>
+            <a class="ThemeButton" id="tema"> <img src="MOON.png" height="60"></a>
         </div>
     </header>
     <main>
@@ -52,31 +53,29 @@
             </div>
         <div>
             <h1 class="serve">Store and serve <br/>any type of digital content</h1>
-            <h3 class="Storg">Storage</h3>
-            <h5 class="opensrc">An open source Object store service with unlimited scalability, for <br/>any file type.</h5>
+                <h3 class="Storg">Storage</h3>
+                <h5 class="opensrc">An open source Object store service with unlimited scalability, for <br/>any file type.</h5>
             <h5 class="opensrc1">With custom policies and permissions that are familiar and easy to <br/> implement.</h5>
         </div>
         <div>
             <a href="#" class="buttonGreen2" onclick="myFunction()">Start a project</a>
         </div>
-            <div>
-                <img src="Frame3.svg" class="framer3" width="250px">
-            </div>
+        <div>
+            <img src="Frame3.svg" class="framer3" width="250px">
+        </div>
         <div>
             <img src="net.svg" class="inet">
             <img src="mark.png" class="markico">
         </div>
-            <div class="flexible">
-                <p class="nigger">Interoperable</p>
-                    <p class="nigger">Lightning speed</p>
-                <p class="nigger">Dependable</p>
-            </div>
-        <div>
-            <div class="flexible2">
-                <p class="nigga">Integrates well with the rest of <br/>Supabase ecosystem, including <br/> Auth and Postgres.</p>
-                    <p class="nigga">Thin API server layer that<br/> leverages Postgres' permissions<br/> and performance.</p>
-                <p class="nigga">Enterprise-level scalability and durability.</p>
-            </div>
+        <div class="flexible">
+            <p class="nigger">Interoperable</p>
+                <p class="nigger">Lightning speed</p>
+            <p class="nigger">Dependable</p>
+        </div>
+        <div class="flexible2">
+            <p class="nigga">Integrates well with the rest of <br/>Supabase ecosystem, including <br/> Auth and Postgres.</p>
+                <p class="nigga">Thin API server layer that<br/> leverages Postgres' permissions<br/> and performance.</p>
+            <p class="nigga">Enterprise-level scalability and durability.</p>
         </div>
         <div>
             <h1 class="sleek" >Sleek dashboard for managing your media</h1>
@@ -85,45 +84,11 @@
         <div>
             <img src="secondimg.svg" class="secondmg">
             <img src="example.svg" class="secondmg2">
-        </div>
-
-        <script>
-                document.getElementById("tema").addEventListener("click", function() {
-                    
-                const currentTheme = document.body.className;
-                const text = document.querySelectorAll("h1") 
-                
-                
-
-                if (currentTheme === '') {
-                    document.body.className = 'light-theme' 
-                    document.body.style.transition = '0.25s';
-                    text.className = '';
-                } else {
-                    document.body.className = ''; 
-                    text.className = 'serve.black';
-                    
-                }
-                
-                });
-                
-            
-                
-            
-
-
-        </script>
-                
-
-                
-    
-    
-
     </main>
 
     <footer>
 
     </footer>
-    <script src="dfgdf.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
