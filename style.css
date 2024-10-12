@@ -1,7 +1,7 @@
 body
 {
    background-color: #181818;
-   height: 5000px; 
+   height: 4200px; 
    color: white;
 }
 body.light-theme
@@ -14,6 +14,10 @@ body.light-theme .sign
 {
     color: black;
 }
+body.light-theme .sign:hover
+{
+    color: rgb(190, 74, 190);
+}
 body nav a
 {
     color:white;
@@ -22,7 +26,7 @@ body nav a
 {
     position: absolute;
     top: 26px;
-    right: 1380px;
+    right: 1488px;
 }
 ul
 {
@@ -50,20 +54,20 @@ li
 .arrow
 {
     position: absolute;
-    margin-left: 650px;
+    margin-left: 550px;
     margin-top: 17px;
 }
 .arrow2
 {
     position: absolute;
-    margin-left: 777px;
+    margin-left: 679px;
     margin-top: 17px;
 }
 .Navigation
 {
     position: absolute;
     top: -2px;
-    right: 960px;
+    right: 1060px;
 }
 .buttonGreen
 {
@@ -267,14 +271,287 @@ li
     background-color: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
     text-decoration: none;
-    position: absolute;
+    position: fixed;
     padding-top: 5px;
     right: 1700px;
     top: 80px;
     transition: 0.25s;
+    cursor: pointer;
 }
 body.light-theme .ThemeButton
 {
     background-color: black;
     color: white;
 }
+.buttonspg2
+{
+    text-decoration: none;
+    justify-content: center;
+    border: 50%;
+    outline: none;
+    padding: 7px 15px;
+    cursor: pointer;
+    border-style:none;
+    border-radius: 3px;
+    transition: 0.25s;
+}
+.button2pos
+{
+    position: absolute;
+    top: 1200px;
+    right: 1060px;
+}
+body .buttonspg2
+{
+    color: #353535;
+    background-color: #181818;
+
+}
+body .buttonspg2:hover
+{
+    color: white;
+    background-color: #2A2A2A;
+}
+body.light-theme .buttonspg2:hover
+{
+    color: #000000;
+    background-color: #cecece;
+}
+body.light-theme .buttonspg2
+{
+    color: rgb(185, 185, 185);
+    background-color: #f4f4f4;
+}
+.previewPos
+{
+    position: absolute;
+    top: 1190px;
+    right: 350px;
+}
+.previewed
+{
+    font-size: 20px;
+    font-family: "Kanit", system-ui;
+    font-weight: 200;
+    font-style: normal;
+}
+.previewImg
+{
+    position: absolute;
+    top: 1380px;
+    right: 370px;
+}
+.thirdpage
+{
+    position: absolute;
+    top: 1680px;
+    right: 970px;
+}
+.thirdpagef
+{
+    font-size: 48px;
+    font-family: "Kanit", system-ui;
+    font-weight: 200;
+    font-style: normal;
+    
+}
+.thirdpages
+{
+    font-size: 24px;
+    font-family: "Kanit", system-ui;
+    font-weight: 200;
+    font-style: normal;
+}
+.integration
+{
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    font-family: "Kanit", system-ui;
+    font-weight: 200;
+    font-style: normal;
+    position: absolute;
+    top: 2180px;
+    right: 1240px;
+}
+.underint
+{
+    display: flex;
+    flex-direction: row;
+    gap: 66px;
+    font-family: "Kanit", system-ui;
+    font-weight: 200;
+    font-style: normal;
+    position: absolute;
+    top: 2275px;
+    right: 1240px;
+    font-size: 14px;
+}
+.intimg
+{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    gap: 190px;
+    top: 2260px;
+    right: 1200px;
+}
+.thirdimg
+{
+    position: absolute;
+    top: 1850px;
+    right: 250px
+}
+.button3pos
+{
+    position: absolute;
+    top: 1810px;
+    right: 220px;
+}
+.fourthpage
+{
+    position: absolute;
+    top: 2500px;
+    right: 1090px;
+}
+.fourth1
+{
+    font-size: 18px;
+    font-family: "Kanit", system-ui;
+    font-weight: 200;
+    font-style: normal;
+}
+.fourth
+{
+    font-size: 48px;
+    font-family: "Kanit", system-ui;
+    font-weight: 200;
+    font-style: normal;
+}
+.fourimg
+{
+    position: absolute;
+    top: 2680px;
+    right: 250px;
+}
+.button4pos
+{
+    position: absolute;
+    top: 2640px;
+    right: 240px;
+}
+.last
+{
+    font-family: "Kanit", system-ui;
+    font-weight: 200;
+    font-style: normal;
+    position: absolute;
+    top: 3400px;
+    right: 700px;
+    font-size: 36px;
+    background: -webkit-linear-gradient(#eee, #333);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.buttonlast
+{
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    border: none;
+    width: 125px;
+    height:27px;
+    background-color: rgb(92, 194, 134);
+    color: white;
+    text-decoration: none;
+    padding-top: 5px;
+    transition: 0.25s;
+}
+.buttonlast:hover
+{
+    color: black;
+    background-color: rgb(224, 255, 213);
+    transition: 0.25s;
+}
+.buttonlastpos
+{
+    position: absolute;
+    top: 3520px;
+    right: 920px;
+}
+.UndIcon
+{
+    position: absolute;
+    top: 3800px;
+    right: 1480px;
+}
+.under
+{
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    position: absolute;
+    top: 3786px;
+    right: 550px;
+}
+body .under
+{
+    color: #353535;
+}
+body.light-theme .under
+{
+    color: rgb(135, 135, 135);
+}
+.under2
+{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 3830px;
+    right: 998px;
+    font-family: "Kanit", system-ui;
+    font-weight: 200;
+    font-style: normal;   
+}
+.under3
+{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 3830px;
+    right: 835px;
+    font-family: "Kanit", system-ui;
+    font-weight: 200;
+    font-style: normal;   
+}
+.under4
+{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 3830px;
+    right: 677px;
+    font-family: "Kanit", system-ui;
+    font-weight: 200;
+    font-style: normal;   
+}
+.under5
+{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 3830px;
+    right: 525px;
+    font-family: "Kanit", system-ui;
+    font-weight: 200;
+    font-style: normal;   
+}
+.linelast
+{
+    position: absolute;
+    top: 3750px;
+    right: 20px;
+    width: 1880px;
+}
+
