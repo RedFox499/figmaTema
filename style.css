@@ -32,6 +32,7 @@ ul
 {
     display: flex;
     gap: 8px;
+    
 }
 li
 {
@@ -554,4 +555,3 @@ body.light-theme .under
     right: 20px;
     width: 1880px;
 }
-
