@@ -1,16 +1,16 @@
-@media (max-width: 770px)
+@media (max-width: 990px)
 {
     .HeadIcon
     {
         position: absolute;
         top: 26px;
-        right: 240px;
+        right: 800px;
     }
     .Navigation
     {
     position: absolute;
-    top: 50px;
-    right: 10px;
+    top: 0px;
+    right: 420px;
     
     }
     ul
@@ -28,7 +28,7 @@
     font-size: 16px;
     position: absolute;
     top: 27px; 
-    right: 25px;  
+    right: 45px;  
     }
     .buttonGreen
     {
@@ -39,13 +39,13 @@
     height:27px;
     position: absolute;
     padding-top: 5px;
-    right: 110px;
+    right: 130px;
     top: 25px;
     }
     .vector1
     {
     position:absolute;
-    right: 312px;
+    right: 820px;
     top: 134px;
     z-index: 3;
     width: 25px;
@@ -56,20 +56,20 @@
     height: 50px;
     border-radius: 25%;
     position: absolute;
-    right: 300px;
+    right: 807px;
     top: 120px;
     }
     .firstimage
     {
     position: absolute;
-    top: 400px;
-    right: 10px;
+    top: 120px;
+    right: 100px;
     width: 350px;
     }
     .Storg
     {
     position: absolute;
-    right: 200px;
+    right: 710px;
     top: 115px;
     }
     .serve
@@ -78,7 +78,7 @@
         font-size: 24px;
         position: absolute;
         top: 170px;
-        right: 10px;
+        right: 508px;
     }
     .opensrc
     {
@@ -86,15 +86,15 @@
     position: absolute;
     top: 240px;
     width: 350px;
-    right: 10px;
+    right: 508px;
     }
     .opensrc1
     {
     text-align: right;
     position: absolute;
-    right: 15px;
+    right: 522px;
     width: 350px;
-    top: 310px;
+    top: 350px;
     }
     .buttonGreen2
     {
@@ -102,45 +102,45 @@
     justify-content: center;
     position: absolute;
     padding-top: 5px;
-    right: 125px;
-    top: 705px;
+    right: 630px;
+    top: 480px;
     }
     .framer3
     {
     position: absolute;
     z-index: 3;
-    top: 780px;
-    right: 15px;
+    top: 545px;
+    right: 515px;
     }
     .flexible
     {
     display: flex;
-    flex-direction: column;
-    gap: 100px;
+    flex-direction: row;
+    gap: 200px;
     position: absolute;
-    top: 800px;
-    right: 130px;
+    top: 580px;
+    right:100px;
     }
 .flexible2
     {
     display: flex;
-    flex-direction: column;
-    gap: 65px;
+    flex-direction: row;
+    gap: 25px;
     position: absolute;
-    top: 830px;
-    right: 20px;
+    top: 600px;
+    right: 45px;
     }
     .inet
     {
     position: absolute;
-    top:940px;
-    right: 0px;
+    top:560px;
+    right: 250px;
     }
     .markico
     {
     position: absolute;
-    right: 175px;
-    top:1080px;
+    right: 125px;
+    top:560px;
     width: 25px;
     }
     .ThemeButton
@@ -151,49 +151,58 @@
     height:65px;
     position: absolute;
     padding-top: 5px;
-    right: 20px;
-    top: 120px;
+    right: 870px;
+    top: 90px;
     }
     .arrow
-{
+    {
     position: absolute;
-    top: 60px;
-    right: 280px;
-}
-.arrow2
-{
+    top: 11px;
+    right: 690px;
+    }
+    .arrowanim
+    {
+        animation: 1s Arrowd ease;
+    }
+    @keyframes Arrowd
+    {
+        from{top: 50px;}
+        to{top: 11px;}
+    }
+    .arrow2
+    {
     position: absolute;
-    top:60px;
-    right: 160px;
-}
+    top:11px;
+    right: 570px;
+    }
 .sleek
 {
     text-align: center;
     position: absolute;
-    top: 1240px;
-    right: 5px;
+    top: 790px;
+    right: 400px;
     font-size: 24px;
-    width: 360px;
+    width: 500px;
 }
 .undersleek
 {
-    text-align: center;
+    text-align: left;
     position: absolute;
-    top: 1330px;
-    right: 5px;   
+    top: 840px;
+    right: 250px;   
 }
 .secondmg
 {
     position: absolute;
-    top: 1500px;
-    right: 25px;
-    width: 320px;
+    top: 1000px;
+    right: 400px;
+    width: 500px;
 }
 .button2pos
 {
     position: absolute;
-    top: 1445px;
-    right: 5px;
+    top: 960px;
+    right: 400px;
     display: flex;
 
 }
@@ -205,66 +214,72 @@
 .previewPos
 {
     position: absolute;
-    top: 1720px;
-    right: 20px;
-    text-align: center;
-    width: 350px;
+    top: 947px;
+    right: 90px;
+    text-align: left;
+    width: 250px;
+    
 }
 .previewImg
 {
     position: absolute;
-    top: 1890px;
-    right: 10px;
+    top: 1160px;
+    right: 340px;
+    width: 50px;
 }
 .thirdpage
 {
     position: absolute;
-    top: 1980px;
-    right: 10px;
-    text-align: center;
+    top: 1350px;
+    right: 333px;
+    text-align: left;
+}
+.thirdpages
+{
+    font-size: 20px;
 }
 .thirdimg
 {
     position: absolute;
-    top: 2690px;
-    right: 228px;
+    top: 1820px;
+    right: 650px;
     width: 150px;
 }
 .button3pos
 {
     position: absolute;
-    top: 2600px;
-    right: 0px;
+    top: 1780px;
+    right: 320px;
     display: flex;
 }
 .integration
 {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     gap: 50px;
     font-size: 20px;
     position: absolute;
-    top: 3020px;
-    right: 65px;
+    top: 1850px;
+    right: 20px;
 }
 .underint
 {
     display: flex;
-    flex-direction: column;
-    gap: 80px;
+    flex-direction: row;
+    gap: 50px;
     position: absolute;
-    top: 3060px;
-    right: 100px;
+    top: 1940px;
+    right: 55px;
     font-size: 14px;
 }
 .intimg
 {
     position: absolute;
     display: flex;
-    flex-direction: column;
-    gap: 95px;
-    top: 3015px;
-    right: 10px;
+    flex-direction: row;
+    gap: 150px;
+    top: 1840px;
+    right: 5px;
 }
     .wifip
     {
@@ -273,9 +288,9 @@
     .fourthpage
 {
     position: absolute;
-    top: 3300px;
-    right: 10px;
-    width: 350px;
+    top: 2100px;
+    right: 350px;
+    width: 500px;
 }
 .fourth1
 {
@@ -293,13 +308,13 @@
 }
 body
 {
-    height: 5350px;
+    height: 4250px;
 }
 .fourimg
 {
     position: absolute;
-    top: 3860px;
-    right: 20px;
+    top: 2600px;
+    right: 400px;
     
 }
 .fourimg2
@@ -310,8 +325,8 @@ body
 {
     display: flex;
     position: absolute;
-    top: 3800px;
-    right: 10px;
+    top: 2560px;
+    right: 270px;
 
 }
 .threeImg
@@ -324,8 +339,8 @@ body
     font-weight: 200;
     font-style: normal;
     position: absolute;
-    top: 4500px;
-    right: 10px;
+    top: 3100px;
+    right: 200px;
     font-size: 24px;
     background: -webkit-linear-gradient(#eee, #333);
     -webkit-background-clip: text;
@@ -334,23 +349,23 @@ body
 .buttonlastpos
 {
     position: absolute;
-    top: 4585px;
-    right: 120px;
+    top: 3200px;
+    right: 340px;
 }
 .linelast
 {
     position: absolute;
-    top: 5010px;
+    top: 3960px;
     right: 0px;
-    width: 10px;
+    width: 800px;
 }
 .under
 {
     display: flex;
     flex-direction: row;
-    gap: 50px;
+    gap: 120px;
     position: absolute;
-    top: 5050px;
+    top: 4000px;
     right: 25px;
     font-size: 12px;
 }
@@ -359,8 +374,8 @@ body
     display: flex;
     flex-direction: column;
     position: absolute;
-    top: 5100px;
-    right: 295px;
+    top: 4030px;
+    right: 495px;
     font-size: 12px;
     flex-wrap: wrap;
    
@@ -370,17 +385,17 @@ body
     display: flex;
     flex-direction: column;
     position: absolute;
-    top: 5100px;
+    top: 4030px;
     font-size: 12px;
-    right: 190px;   
+    right: 330px;   
 }
 .under4
 {
     display: flex;
     flex-direction: column;
     position: absolute;
-    top: 5100px;
-    right: 90px;
+    top: 4030px;
+    right: 165px;
     font-size: 12px;
 }
 .under5
@@ -388,15 +403,60 @@ body
     display: flex;
     flex-direction: column;
     position: absolute;
-    top: 5100px;
+    top: 4030px;
     right: 5px;
     font-size: 12px;   
 }
 .UndIcon
 {
     position: absolute;
-    top: 5300px;
-    right: 120px;
+    top: 4010px;
+    right: 650px;
+}
+.StorgAnim
+{
+    animation: 1s StorgA ease;
+}
+@keyframes StorgA
+{
+    from {right: 1600px;}
+    to {right: 1450px;}
+}
+.NavAnim
+{
+    animation: 1s Nav ease;
+}
+@keyframes Nav
+{
+    from { top: 30px;}
+    to {top: 0px;}
+}
+.animka1
+{
+    animation: 1s show ease-in-out;
+}
+@keyframes show {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+.buttonAnim
+{
+    animation: 1s pric ease-in-out;  
+}
+@keyframes pric 
+{
+    from { width: 0px; }
+    to { width: 135px;}
+}
+.firstImgAnim
+{
+    animation: 1s firstImg ease;
+
+}
+@keyframes firstImg
+{
+    from { right: -200px;}
+    to {right: 100px; top: 120px;}
 }
 
 }

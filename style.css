@@ -70,6 +70,15 @@ li
     top: -2px;
     right: 1060px;
 }
+.NavAnim
+{
+    animation: 1s Nav ease;
+}
+@keyframes Nav
+{
+    from { top: 30px;}
+    to {top: -2px;}
+}
 .buttonGreen
 {
     border-radius: 10px;
@@ -131,6 +140,15 @@ li
     position: absolute;
     top: 190px;
     right: 263px;
+}
+.StorgAnim
+{
+    animation: 1s StorgA ease;
+}
+@keyframes StorgA
+{
+    from {right: 1600px;}
+    to {right: 1450px;}
 }
 .Storg
 {
@@ -481,6 +499,34 @@ body.light-theme .buttonspg2
     top: 3520px;
     right: 920px;
 }
+.animka1
+{
+    animation: 1s show ease-in-out;
+}
+@keyframes show {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+.buttonAnim
+{
+    animation: 1s pric ease-in-out;  
+}
+@keyframes pric 
+{
+    from { width: 0px; }
+    to { width: 135px;}
+}
+.firstImgAnim
+{
+    animation: 1s firstImg ease;
+
+}
+@keyframes firstImg
+{
+    from { right: -200px;}
+    to {right: 263px;}
+}
+
 .UndIcon
 {
     position: absolute;
