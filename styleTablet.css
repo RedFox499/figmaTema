@@ -1,4 +1,4 @@
-@media (max-width: 990px)
+@media (min-width: 770px) and (max-width: 990px)
 {
     .HeadIcon
     {
@@ -458,5 +458,10 @@ body
     from { right: -200px;}
     to {right: 100px; top: 120px;}
 }
-
+.gifka
+{
+    position: absolute;
+    top: 3800px;
+    right: 340px;
+}
 }
